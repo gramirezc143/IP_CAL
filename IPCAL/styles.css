@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    background-color: skyblue;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #dddddd;
+    padding: 8px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    border-color: black;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+#result {
+    margin: 15px;
+    padding: 15px;
+}
